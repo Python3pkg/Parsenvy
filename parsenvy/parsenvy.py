@@ -5,7 +5,7 @@ try:
     import builtins
 # but that doesn't mean we can't be *a little* backwards compatible
 except ImportError:
-    import __builtin__ as builtins
+    import builtins as builtins
 
 
 def _env_var(key):
